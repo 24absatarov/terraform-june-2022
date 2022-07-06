@@ -11,7 +11,7 @@ resource "aws_instance" "first_ec2" {
 
 # Syntex is Hashicorp Configuration Language (HCL)
 
-# Terraform has only 2 types blocks.
+# Terraform has only 2 types blocks. adfad
 # 1. Resource = Create and Manage resources
 # 2. Data Source 
 
