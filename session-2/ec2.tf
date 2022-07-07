@@ -2,11 +2,7 @@
 
 resource "aws_instance" "first_ec2" {
   ami           = "ami-0be2609ba883822ec"
-  instance_type = "t2.micro"
-  tags = {
-    Name        = "first"
-    Environment = "dev"
-  }
+  instance_type = "t2.micro" 
 }
 
 # Syntex is Hashicorp Configuration Language (HCL)
@@ -25,3 +21,12 @@ resource "aws_instance" "first_ec2" {
 # Nice to have:
 # 1. Use _ instead of -
 # 2. Use lower cases
+
+# Working Directory is a place where you run Terraform Commands
+# Terraform has a plugin based archicture
+# Plugin = Feature
+
+# Terraform.tfstate = Backend
+# There are only 2 types of Backend
+# - Local Backend = is within the Working Directory
+# - Remote Backend = is in the Storage
