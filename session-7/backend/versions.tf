@@ -3,9 +3,9 @@ terraform {
     required_providers {
         aws = {
             source = "hashicorp/aws"
-            version = "~> 4.21.0" # 4.21.0 < x < 4.22.0
+            version = "~> 4.21.0"
         }
     }
 }
 
-# Biggest Change - between 0.11.9 to 0.12.0
+# required stable version that we need, because they're updating very frequetly 
