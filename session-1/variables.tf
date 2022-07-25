@@ -1,20 +1,20 @@
-variable “ami” {
+variable "ami" {
     type = string
-    description = “This is a variable for Amazon Machine Image”
-    default = “ami-0cff7528ff583bf9a”
+    description = "This is a variable for Amazon Machine Image"
+    default = "ami-0cff7528ff583bf9a"
 }
-variable “instance_type” {
+variable "instance_type" {
     type = string
-    description = “This is an Instance type for EC2”
-    default = “t2.micro”
+    description = "This is an Instance type for EC2"
+    default = "t2.micro"
 }
-variable “key_name” {
+variable "key_name" {
     type = string
-    description = “This is a Key Pair for EC2"
-    default = “MyRazerKey”
+    description = "This is a Key Pair for EC2"
+    default = "MyRazerKey"
 }
-variable “env” {
+variable "env" {
     type = string
-    description = “This variable represents the environment”
-    default = “Dev”
+    description = "his variable represents the environment"
+    default = "Dev"
 }
